@@ -18,7 +18,7 @@ const anObj = {
     name: 'My Object',
     sayObjName: function() {
         console.log(`${this.name} is the name of my object`); 
-        console.log(this); 
+        console.table(this); 
     }
 }
 
